@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:build" : "npx tailwindcss -i css/tailwind.css -o css/styles.css",
+    "tailwind:run" : "npx tailwindcss -i css/tailwind.css -o css/styles.css --watch"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
